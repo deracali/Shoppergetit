@@ -1,0 +1,16 @@
+{
+  "name": "shoppergetit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch sass:css",
+    "compile": "sass --watch sass/main.scss:Css/style.css"
+  },
+  "author": "deracali",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.7"
+  }
+}
